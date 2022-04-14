@@ -1,0 +1,20 @@
+from datetime import datetime,timedelta
+dt=datetime.now()
+print("Current date",str(dt))
+one_month=dt + timedelta(days=0)
+print("Formatted manner",one_month.strftime("%d-%m-%Y %H:%M:%S"))
+# print(dt)
+# newd=dt.strftime("%d%m%y")
+# print(newd)
+# newd1=dt.strftime("%d-%b-%Y Day is: %A")
+# print(newd1)
+# newt=dt.strftime("%H:%M:%S")
+# print(newt)
+# newf=dt.strftime("%I:%M:%S %p in 12 hour format")
+# print(newf)
+# newf=dt.strftime("%H:%M:%S %p in 24 hour format")
+# print(newf)
+#
+# dt_str = "12/11/2018 09:15:32"
+# dt_obj = datetime.strptime(dt_str, "%d/%m/%Y %H:%M:%S")
+# print("dt_object1 =", dt_obj)
